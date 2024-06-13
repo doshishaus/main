@@ -1,0 +1,51 @@
+.top{
+	height: 90vh;
+}
+#greeting h2{
+	padding-top: 20vh;
+}
+@media screen and (max-width:900px) {
+	.top{
+		height: 50vh;
+	}
+	#greeting h2{
+		padding-top: 15vh;
+	}
+}
+.center{
+	text-align: center;
+	margin-bottom: 5rem;
+}
+
+
+/* アコーディングメニュー設定 */
+button,.accordion-content p{
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+.accordion-header {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: background-color 0.4s ease;
+}
+
+.accordion-header:hover {
+    background-color: #ccc;
+}
+
+.accordion-content {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+
+

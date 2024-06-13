@@ -1,0 +1,56 @@
+.top{
+	height: 90vh;
+}
+#greeting h2{
+	padding-top: 20vh;
+}
+@media screen and (max-width:900px) {
+	.top{
+		height: 50vh;
+	}
+	#greeting h2{
+		padding-top: 15vh;
+	}
+}
+
+
+/* カード */
+#member{
+	text-align: center;
+}
+.card{
+	display: inline-block;
+	position: relative;
+	width: 16%;
+	aspect-ratio: 1/1;
+	overflow: hidden;
+	margin: 1%;
+}
+@media (max-width:440px) {
+	.card{
+		width: 46%;
+	}
+}
+.card img{
+	width: 100%;
+}
+.introduction{
+	width: 100%;
+	height: 100%;
+	visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	background-color: #2f2a2aa1;
+	color: white;
+}
+.introduction h3{
+	margin-top: 40%;
+}
+
+.card:hover .introduction{
+	visibility: visible;
+}
+
+

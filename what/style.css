@@ -1,0 +1,20 @@
+.top{
+	height: 90vh;
+}
+#greeting h2{
+	padding-top: 20vh;
+}
+@media screen and (max-width:900px) {
+	.top{
+		height: 50vh;
+	}
+	#greeting h2{
+		padding-top: 15vh;
+	}
+}
+.center{
+	text-align: center;
+	margin-bottom: 5rem;
+}
+
+
